@@ -35,6 +35,7 @@ public class Principal {
 		}
 
 		while (respuesta != 1) {
+			contador = 1;
 			for (int j = 0; j < Separar.operadores.length; j++) {
 				if (Separar.operadores[j].equals("+")) {
 					ope.sumar(Separar.numerosfin.get(contador));
